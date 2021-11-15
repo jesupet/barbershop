@@ -1,0 +1,25 @@
+.nav {
+    background-color: $eerie-black;
+    color: $white;
+}
+
+.nav__container {
+    margin: 0 80px;
+}
+
+.nav-logo {
+    width: 100px;
+}
+
+.nav-list {
+    margin: 0 0 0 auto;
+    .nav-link {
+    color: $white;
+    
+       &:hover {
+           color: $fuzzy-wuzzy;
+
+       }
+
+    }
+}

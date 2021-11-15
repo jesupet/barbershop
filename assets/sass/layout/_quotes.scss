@@ -1,0 +1,38 @@
+.quotes-section {
+    @extend %container;
+    align-items: center;
+}
+
+.quote__image {
+    border-radius: 50%;
+    padding: 0;
+}
+
+.quote__author-name {
+    font-family: $playfair;
+    font-size: $x-large;
+    font-weight: $black-italic;
+    font-style: italic;
+}
+
+.quote__link {
+    color: $ruddy-pink;
+    font-weight: $light;
+    font-family: $roboto;
+    font-size: $medium;
+    text-decoration: none;
+    margin: 0;
+}
+
+.quote__author-container {
+    p {
+        margin:0
+    }
+}
+
+.quote__text {
+    font-weight: $light;
+    font-family: $roboto;
+    font-size: $small;
+    line-height: 2rem;
+}

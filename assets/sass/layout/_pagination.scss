@@ -1,0 +1,34 @@
+.pagination-container {
+    background-color: $platinium;
+    height: 200px;
+   
+}
+
+.pages__list {
+    justify-content: center;
+    padding: 88px;
+}
+
+.page-link {
+    background-color: $white;
+    color: $nickel;
+    font-size: $medium;
+    font-family: $roboto;
+    
+    &:hover {
+        color: $fuzzy-wuzzy;
+    }
+
+}
+
+.page-link--light {
+    color: $light-gray;
+}
+
+.page-item {
+    &.active .page-link {
+        background-color: $nickel;
+        border-color: $eerie-black;
+    }
+    
+}

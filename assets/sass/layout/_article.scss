@@ -1,0 +1,29 @@
+%container {
+    margin: 80px;
+    padding: 0;
+}
+
+.article {
+   @extend %container
+}
+.article__title {
+    font-size: $large;
+    font-family: $playfair;
+    font-weight: $light;
+    margin: 50px auto;
+}
+
+.article__text {
+    font-family: $roboto;
+    font-weight: $light;
+    font-size: $medium;
+    margin: 50px auto;
+}
+
+.article__btn {
+    border-radius: 1rem;
+    font-family: $roboto;
+    font-size: $medium;
+    background-color: $nickel;
+    border-color: none;
+}
