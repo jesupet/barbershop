@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+    text-align: center;
 }
 
 .header__text {
@@ -10,9 +11,10 @@
     font-weight: $black-italic;
     font-size: $xx-large;
     color: $white;
-    padding: 350px;
-    text-align: center;
     font-style: italic;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 350px 0;
 }
 
 .arrow-icon__logo {

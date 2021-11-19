@@ -36,3 +36,10 @@
     font-size: $small;
     line-height: 2rem;
 }
+
+@media screen and (min-width: 320px) and (max-width: 680px)
+{
+    .quote__text {
+        display: none;
+    }
+}

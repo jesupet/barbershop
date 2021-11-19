@@ -6,3 +6,19 @@
     background-color: $nickel;
     border-color: none;
 }
+
+.article__btn:hover {
+    background-color: $platinium;
+    border-color: $platinium;
+}
+
+.article__btn:focus {
+    border-color: $nickel;
+}
+
+@media screen and (min-width: 320px) and (max-width: 680px)
+{
+    .article__btn {
+        font-size: $small;
+    }
+}

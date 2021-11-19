@@ -11156,14 +11156,6 @@ img {
   margin: 50px auto;
 }
 
-.article__btn {
-  border-radius: 1rem;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  background-color: #6c6e70;
-  border-color: none;
-}
-
 .footer {
   background-color: #121619;
   color: #fff;
@@ -11182,6 +11174,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  text-align: center;
 }
 
 .header__text {
@@ -11189,9 +11182,10 @@ img {
   font-weight: 900;
   font-size: 70px;
   color: #fff;
-  padding: 350px;
-  text-align: center;
   font-style: italic;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 350px 0;
 }
 
 .arrow-icon__logo {
@@ -11226,6 +11220,10 @@ img {
 }
 .nav-list .nav-link:hover {
   color: #e56353;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
 }
 
 .quotes-section {
@@ -11264,6 +11262,11 @@ img {
   line-height: 2rem;
 }
 
+@media screen and (min-width: 320px) and (max-width: 680px) {
+  .quote__text {
+    display: none;
+  }
+}
 .pagination-container {
   background-color: #e6e7e7;
   height: 200px;
@@ -11301,6 +11304,20 @@ img {
   border-color: none;
 }
 
+.article__btn:hover {
+  background-color: #e6e7e7;
+  border-color: #e6e7e7;
+}
+
+.article__btn:focus {
+  border-color: #6c6e70;
+}
+
+@media screen and (min-width: 320px) and (max-width: 680px) {
+  .article__btn {
+    font-size: 12px;
+  }
+}
 .quote__link {
   color: #d76c69;
   font-weight: 300;
